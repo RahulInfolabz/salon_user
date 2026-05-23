@@ -5,7 +5,7 @@ import Footer from '../common/Footer'
 import { useLocation, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import api from '../utils/AxiosConfig'
-const apiUrl = import.meta.env.BASE_URL;
+const apiUrl = import.meta.env.VITE_BASE_URL;
 
 function ServiceDetails() {
     return (

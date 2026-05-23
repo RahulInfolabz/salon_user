@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from "axios"
 import { useNavigate } from 'react-router-dom'
 import cookie from "js-cookie";
-const apiUrl = import.meta.env.BASE_URL;
+const apiUrl = import.meta.env.VITE_BASE_URL;
 
 function Login() {
     return (

@@ -5,7 +5,7 @@ import Header from '../common/Header'
 import Footer from '../common/Footer'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
-const apiUrl = import.meta.env.BASE_URL;
+const apiUrl = import.meta.env.VITE_BASE_URL;
 
 function Categories() {
     return (

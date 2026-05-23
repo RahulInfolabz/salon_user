@@ -1,7 +1,7 @@
 import axios from "axios";
 import CheckToken from "./CheckToken";
 import Logout from "./Logout";
-const apiUrl = import.meta.env.BASE_URL;
+const apiUrl = import.meta.env.VITE_BASE_URL;
 
 let api = axios.create({
     baseURL: `${apiUrl}`
