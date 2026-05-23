@@ -220,7 +220,7 @@ function HomeGallery() {
 
         try {
             setLoading(true);
-            let response = await axios.get("https://salon-backend-jwt.onrender.com/categories")
+            let response = await axios.get("https://salonapi-backend.onrender.com/categories")
             console.log(response.data);
             setCategories(response.data.data.slice(0, 6));
         } catch (e) {
